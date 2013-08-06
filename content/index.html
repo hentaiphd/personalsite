@@ -1,0 +1,47 @@
+---
+title: nina says so
+extends: base.j2
+---
+
+{% block scripts %}
+<script type="text/javascript" src="{{ media_url('js/boxwiggle.js') }}"></script>
+{% endblock scripts %}
+
+{% block content %}
+<div id="introwrapper">
+		<div id="canvwrap">
+			<canvas id="box" width="200" height="200"></canvas>
+		</div>
+		<div id="intro">
+			<table>
+		    <tr id="myName">
+		        <td>N</td>
+		        <td>I</td>
+		        <td>N</td>
+		        <td>A</td>
+		        <td> </td>
+		       	<td> </td>
+		        <td> </td>
+		        <td>F</td>
+		        <td>R</td>
+		        <td>E</td>
+		       	<td>E</td>
+		        <td>M</td>
+		        <td>A</td>
+		        <td>N</td>
+		    </tr>
+			</table>
+			is a <a href="http://github.com/hentaiphd" target="0">programmer</a> and a real life mahou shoujo. <p>
+			She <a href="/games">makes</a> and <a href="http://videogamesexdonut.tumblr.com/" target = "0">writes</a> about video games.<p>
+			You can find her poetry on <a href="https://github.com/hentaiphd/untitled" target="0">GitHub</a>. <p>
+			<a href="https://twitter.com/hentaiphd" class="twitter-follow-button" data-show-count="false">Follow @hentaiphd</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script><p>
+
+				<a href="http://www.linkedin.com/pub/nina-freeman/47/720/36a">
+	      
+	          	<img src="http://www.linkedin.com/img/webpromo/btn_liprofile_blue_80x15.png" width="80" height="15" border="0" alt="View Nina Freeman's profile on LinkedIn">
+	        
+	    </a>
+		</div>
+	</div>
+{% endblock content %}

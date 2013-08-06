@@ -1,0 +1,30 @@
+---
+title: nina's games
+extends: base.j2
+---
+{% block scripts %}
+<script type="text/javascript" src="{{ media_url('js/namecolor.js') }}"></script>
+{% endblock scripts %}
+
+{% block content %}
+	<table id = "gameName">
+    <tr id="myName">
+    	<td>C</td>
+        <td>Y</td>
+        <td>B</td>
+        <td>R</td>
+        <td>I</td>
+        <td>D</td>
+        <td>--</td>
+        <td>7</td>
+        <td>X</td>
+    </tr>
+	</table>
+	<div id="cybrid"><img src="{{ media_url('/cybrid.png') }}"></img></div>
+	<div id="games">
+		<b>Cybrid-7X</b><p>
+		A game for PSVita made at the IndieCade East '13 Sony PSM Game Jam. Cybrid-7X is a game about a robot girl and her garden overflowing with plant life. She is trying to find the perfect flower through cross-breeding, while also keeping everything organized in an attempt not to be overrun by the precocious plants popping up all around her.
+    	<p>
+   		Made by team <a href="http://donutgoku.tumblr.com">donutGoku</a> (Nina Freeman, Emmett Butler and Diego Garcia)</div>
+    <div id = "back"><a href="/games"><< back</a></div>
+{% endblock content %}

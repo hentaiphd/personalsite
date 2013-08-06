@@ -1,0 +1,124 @@
+body{
+    background-color: #FFFFFF;
+	font-family: "century gothic", sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
+	}
+
+div#canvwrap {
+    float: left;
+}
+
+canvas{
+    float: left;
+}
+
+table{
+    font-family: "garamond", sans-serif;
+    font-size: 45px;
+    font-weight:bold;
+    color: #91E0FF; 
+}
+
+div{
+    font-family: "century gothic", sans-serif;
+    font-size: 15px;
+    color: #000000;
+    text-align: left;
+    position: relative;
+
+}
+
+div#intro{
+    float: left;
+    margin-left: 10px;
+    margin-top: -10px;
+    background-color: #FFFFFF;
+}
+
+div#games{
+    margin-left: auto;
+    margin-right: auto;
+    width: 640px;
+}
+
+div#embedgame{
+    margin-left: auto;
+    margin-right: auto;
+    width: 640px;
+}
+
+div#cybrid{
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+}
+
+div#back{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+}
+
+table#gameName{
+    font-family: "garamond", sans-serif;
+    font-size: 45px;
+    font-weight:bold;
+    color: #91E0FF; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+}
+
+div#introwrapper{
+    display: block;
+    height: 200px;
+    width: 634px;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 200px;
+}
+
+div.essay{
+    font-family: "century gothic", sans-serif;
+    font-size: 15px;
+    color: #000000;
+    background-color: #FFFFFF;
+    top-margin: 15%;
+    width: 50%;
+    text-align: justify;
+    padding: 5px 20px;
+    }
+
+a:link,a:visited{
+	color: #000000;
+	text-decoration: underline;
+	}
+
+a:hover,a:active{
+	color: #000000;
+	text-decoration: underline;
+	}
+
+@-webkit-keyframes boxShake {
+    0% { -webkit-transform: translate(2px, 1px) rotate(0deg); }
+    10% { -webkit-transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { -webkit-transform: translate(-3px, 0px) rotate(1deg); }
+    30% { -webkit-transform: translate(0px, 2px) rotate(0deg); }
+    40% { -webkit-transform: translate(1px, -1px) rotate(1deg); }
+    50% { -webkit-transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { -webkit-transform: translate(-3px, 1px) rotate(0deg); }
+    70% { -webkit-transform: translate(2px, 1px) rotate(-1deg); }
+    80% { -webkit-transform: translate(-1px, -1px) rotate(1deg); }
+    90% { -webkit-transform: translate(2px, 2px) rotate(0deg); }
+    100% { -webkit-transform: translate(1px, -2px) rotate(-1deg); }
+}
+canvas:hover {
+    -webkit-animation-name: boxShake;
+    -webkit-animation-duration: 0.8s;
+    -webkit-transform-origin:50% 50%;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+}

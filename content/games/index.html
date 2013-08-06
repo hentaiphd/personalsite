@@ -1,0 +1,34 @@
+---
+title: nina's games
+extends: base.j2
+---
+{% block scripts %}
+<script type="text/javascript" src="{{ media_url('js/boxwiggle.js') }}"></script>
+{% endblock scripts %}
+
+{% block content %}
+<div id="introwrapper">
+		<div id="canvwrap">
+			<canvas id="box" width="200" height="200"></canvas>
+		</div>
+
+		<div id="intro">
+			<table>
+		    <tr id="myName">
+		        <td>G</td>
+		        <td>A</td>
+		        <td>M</td>
+		        <td>E</td>
+		        <td>S</td>
+		    </tr>
+			</table>
+				<a href="/myhousemyrules">My House My Rules</a><p>
+				<a href="/hokutonohuchen">Hokuto no Huchen (Fist of the North Carp)</a><p>
+				<a href="/datingsim" target="blank">A Dating Sim</a><p>
+				<a href="/cybrid7x">Cybrid-7x</a><p>
+			    <a href="/ekg">EKG Game</a><p>
+	    </a>
+		</div>
+	</div>
+	<div id = "back"><a href="/"><< back</a></div>
+{% endblock content %}
